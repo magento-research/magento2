@@ -38,6 +38,10 @@
         "elasticsearch/elasticsearch": "~2.0|~5.1",
         "magento/composer": "~1.4.0",
         "magento/magento-composer-installer": ">=0.1.11",
+        "magento/module-catalog-sample-data-venia": "dev-master",
+        "magento/module-configurable-sample-data-venia": "dev-master",
+        "magento/module-customer-sample-data-venia": "dev-master",
+        "magento/sample-data-media-venia": "dev-master",
         "magento/zendframework1": "~1.14.1",
         "monolog/monolog": "^1.17",
         "oyejorge/less.php": "~1.7.0",
@@ -311,5 +315,24 @@
             "Magento\\TestFramework\\Utility\\": "dev/tests/static/framework/Magento/TestFramework/Utility/"
         }
     },
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": {
+        "veniaConfigurableSampleData": {
+            "type": "git",
+            "url": "https://github.com/PMET-public/module-configurable-sample-data-venia.git"
+    },
+        "veniaCatalogSampleData": {
+            "type": "git",
+            "url": "https://github.com/PMET-public/module-catalog-sample-data-venia.git"
+        },
+        "veniaCustomerSampleData": {
+          "type": "git",
+          "url": "https://github.com/PMET-public/module-customer-sample-data-venia.git"
+        },
+        "veniaSampleDataMedia": {
+            "type": "git",
+            "url": "https://github.com/PMET-public/sample-data-media-venia.git"
+        }
+    },
+    "minimum-stability": "dev"
 }
