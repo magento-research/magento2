@@ -38,6 +38,12 @@
         "elasticsearch/elasticsearch": "~2.0|~5.1",
         "magento/composer": "~1.4.0",
         "magento/magento-composer-installer": ">=0.1.11",
+        "magento/module-catalog-sample-data-venia": "dev-master@dev",
+        "magento/module-configurable-sample-data-venia": "dev-master@dev",
+        "magento/module-customer-sample-data-venia": "dev-master@dev",
+        "magento/module-sales-sample-data-venia": "dev-master@dev",
+        "magento/module-tax-sample-data-venia": "dev-master@dev",
+        "magento/sample-data-media-venia": "dev-master@dev",
         "magento/zendframework1": "~1.14.1",
         "monolog/monolog": "^1.17",
         "oyejorge/less.php": "~1.7.0",
@@ -311,5 +317,31 @@
             "Magento\\TestFramework\\Utility\\": "dev/tests/static/framework/Magento/TestFramework/Utility/"
         }
     },
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": {
+        "module-catalog-sample-data-venia": {
+            "type": "github",
+            "url": "git@github.com:PMET-public/module-catalog-sample-data-venia.git"
+        },
+        "module-configurable-sample-data-venia": {
+            "type": "github",
+            "url": "git@github.com:PMET-public/module-configurable-sample-data-venia.git"
+        },
+        "module-customer-sample-data-venia": {
+            "type": "github",
+            "url": "git@github.com:PMET-public/module-customer-sample-data-venia.git"
+        },
+        "module-sales-sample-data-venia": {
+            "type": "github",
+            "url": "git@github.com:PMET-public/module-sales-sample-data-venia.git"
+        },
+        "module-tax-sample-data-venia": {
+            "type": "github",
+            "url": "git@github.com:PMET-public/module-tax-sample-data-venia.git"
+        },
+        "sample-data-media-venia": {
+            "type": "github",
+            "url": "git@github.com:PMET-public/sample-data-media-venia.git"
+        }
+    }
 }

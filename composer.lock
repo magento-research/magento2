@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b6dc9e7403d5f8b1c9d870e0ca0c8a12",
+    "content-hash": "ed3e19b43ad4f0fb304bf127aa24d70f",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -869,6 +869,224 @@
                 "magento"
             ],
             "time": "2017-12-29T16:45:24+00:00"
+        },
+        {
+            "name": "magento/module-catalog-sample-data-venia",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PMET-public/module-catalog-sample-data-venia.git",
+                "reference": "dec718a261086282efa8fe9c27abf75a331991f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PMET-public/module-catalog-sample-data-venia/zipball/dec718a261086282efa8fe9c27abf75a331991f6",
+                "reference": "dec718a261086282efa8fe9c27abf75a331991f6",
+                "shasum": ""
+            },
+            "require": {
+                "magento/module-sample-data": "*",
+                "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\CatalogSampleDataVenia\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "N/A",
+            "support": {
+                "source": "https://github.com/PMET-public/module-catalog-sample-data-venia/tree/master",
+                "issues": "https://github.com/PMET-public/module-catalog-sample-data-venia/issues"
+            },
+            "time": "2018-10-19T14:23:59+00:00"
+        },
+        {
+            "name": "magento/module-configurable-sample-data-venia",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PMET-public/module-configurable-sample-data-venia.git",
+                "reference": "50c419c79af587c339b486f6750283b344f4f77c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PMET-public/module-configurable-sample-data-venia/zipball/50c419c79af587c339b486f6750283b344f4f77c",
+                "reference": "50c419c79af587c339b486f6750283b344f4f77c",
+                "shasum": ""
+            },
+            "require": {
+                "magento/module-configurable-product": "*",
+                "magento/module-sample-data": "*",
+                "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\ConfigurableSampleDataVenia\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "N/A",
+            "support": {
+                "source": "https://github.com/PMET-public/module-configurable-sample-data-venia/tree/master",
+                "issues": "https://github.com/PMET-public/module-configurable-sample-data-venia/issues"
+            },
+            "time": "2018-10-19T15:00:09+00:00"
+        },
+        {
+            "name": "magento/module-customer-sample-data-venia",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PMET-public/module-customer-sample-data-venia.git",
+                "reference": "e8717cd296b990f7f2b9159c4c9259d4e037151c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PMET-public/module-customer-sample-data-venia/zipball/e8717cd296b990f7f2b9159c4c9259d4e037151c",
+                "reference": "e8717cd296b990f7f2b9159c4c9259d4e037151c",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\CustomerSampleDataVenia\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "N/A",
+            "support": {
+                "source": "https://github.com/PMET-public/module-customer-sample-data-venia/tree/master",
+                "issues": "https://github.com/PMET-public/module-customer-sample-data-venia/issues"
+            },
+            "time": "2018-10-19T15:02:31+00:00"
+        },
+        {
+            "name": "magento/module-sales-sample-data-venia",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PMET-public/module-sales-sample-data-venia.git",
+                "reference": "ac1a95730b8d3331fd3446c507db3d3a14e0623d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PMET-public/module-sales-sample-data-venia/zipball/ac1a95730b8d3331fd3446c507db3d3a14e0623d",
+                "reference": "ac1a95730b8d3331fd3446c507db3d3a14e0623d",
+                "shasum": ""
+            },
+            "require": {
+                "magento/module-catalog-sample-data-venia": "*",
+                "magento/module-configurable-sample-data-venia": "*",
+                "magento/module-customer-sample-data-venia": "*",
+                "magento/module-tax-sample-data-venia": "*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\SalesSampleDataVenia\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "N/A",
+            "support": {
+                "source": "https://github.com/PMET-public/module-sales-sample-data-venia/tree/master",
+                "issues": "https://github.com/PMET-public/module-sales-sample-data-venia/issues"
+            },
+            "time": "2018-10-19T15:10:36+00:00"
+        },
+        {
+            "name": "magento/module-tax-sample-data-venia",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PMET-public/module-tax-sample-data-venia.git",
+                "reference": "c3fe5d5527b71fbbc53f4d893bd0c802ab748731"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PMET-public/module-tax-sample-data-venia/zipball/c3fe5d5527b71fbbc53f4d893bd0c802ab748731",
+                "reference": "c3fe5d5527b71fbbc53f4d893bd0c802ab748731",
+                "shasum": ""
+            },
+            "require": {
+                "magento/module-tax": "100.3.*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\TaxSampleDataVenia\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "support": {
+                "source": "https://github.com/PMET-public/module-tax-sample-data-venia/tree/master",
+                "issues": "https://github.com/PMET-public/module-tax-sample-data-venia/issues"
+            },
+            "time": "2018-10-19T15:04:22+00:00"
+        },
+        {
+            "name": "magento/sample-data-media-venia",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PMET-public/sample-data-media-venia.git",
+                "reference": "fdf9d477d0808d6e8745d2fcffbb79515c2f26b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PMET-public/sample-data-media-venia/zipball/fdf9d477d0808d6e8745d2fcffbb79515c2f26b1",
+                "reference": "fdf9d477d0808d6e8745d2fcffbb79515c2f26b1",
+                "shasum": ""
+            },
+            "type": "magento2-component",
+            "extra": {
+                "map": [
+                    [
+                        "*",
+                        "pub/media"
+                    ]
+                ]
+            },
+            "description": "Sample Data media files",
+            "support": {
+                "source": "https://github.com/PMET-public/sample-data-media-venia/tree/master",
+                "issues": "https://github.com/PMET-public/sample-data-media-venia/issues"
+            },
+            "time": "2018-10-19T15:05:38+00:00"
         },
         {
             "name": "magento/zendframework1",
@@ -9041,6 +9259,12 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "magento/module-catalog-sample-data-venia": 20,
+        "magento/module-configurable-sample-data-venia": 20,
+        "magento/module-customer-sample-data-venia": 20,
+        "magento/module-sales-sample-data-venia": 20,
+        "magento/module-tax-sample-data-venia": 20,
+        "magento/sample-data-media-venia": 20,
         "phpmd/phpmd": 0
     },
     "prefer-stable": true,
